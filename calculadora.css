@@ -1,0 +1,22 @@
+/* layout do botao =*/
+.botao{
+    display:block;
+    width:20%;
+    padding:10px 15px;
+    border:0;
+    background:#03a03f;
+    color:#fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* layout do da caixa da entrada de dados*/
+
+input[type='text']{
+    width:20%;
+    padding:8px;
+    margin-bottom:10px;
+    border-radius:5px;
+    border:1px solid #df0b0b;
+}
+

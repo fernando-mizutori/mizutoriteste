@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de hardware</title>       
+</head>
+<body>
+    
+    <h1>Escolha seu processador</h1>
+       Nome:  <input type="text" name="nome"><br>
+       E-mail: <input type="email" name="email"><br>
+       Fabricante: 
+       <!-- botao tipo radio para seleção AMD ou Intel -->
+
+       <input type="radio" name="velocidade" value="intel"> intel
+       <select name="Versao">
+        <!-- lista de escolha entre 2 modelos Intel-->
+        <option>5950x</option> 
+        <option>4550x</option> 
+       </select>
+       <!-- lista de escolha entre 2 modelos AMD -->
+       <input type="radio" name="velocidade" value="Amd"> Amd
+       <select name="Versao">
+        <option>ryzen 7600x</option> 
+        <option>ryzen 7900x</option> 
+       </select>
+    <br>
+    <!-- escolha refriamento em check -->
+       Adicionais:
+       <input type="checkbox" name="watercooler" value="sim"> watercooler
+       <input type="checkbox" name="aircooler" value="sim"> aircooler
+
+    <br>
+    <!-- escolher data de entrega -->
+       Data de Entrega:
+       <input type="date" name="data de entrega">
+    <br>
+
+       Observações: 
+    <br>
+       <textarea name="mensagem" rows="10" cols="30"> </textarea> 
+    <br>
+       <input type="submit">
+       <!-- espaço para comentário e envio  -->
+</body>
+</html>

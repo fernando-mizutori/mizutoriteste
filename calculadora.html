@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <!--2 entradas de dados do tipo imput-->
+    <input id="campo1" type=text>
+    <input id="campo2" type=text>
+    <!-- operação realizada em ID para posterior uso do javascript -->
+    <select id="operacao">
+        <option>somar</option>
+        <option>subtrair</option>
+        <option>multiplicar</option>
+        <option>dividir</option>
+    </select>
+    <!-- o resultado botao de ID para calcular em javascript-->
+    <button id="igual" class="botao"> = </button>
+    <br>
+    <!-- resposta em Id jogando na mesma pagina em javascript -->
+    Resposta: <div id="resposta"></div>
+
+<script src="calculadorfinal.js"></script>
+
+</body>
+</html>
